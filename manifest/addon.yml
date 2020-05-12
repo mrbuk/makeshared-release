@@ -1,0 +1,18 @@
+releases:
+- name: makeshared
+  # a bosh-addon needs to be set to a specific version
+  version: 1
+
+addons:
+- name: makeshared
+  jobs:
+  - name: makeshared
+    release: makeshared
+
+  # only deploy on worker nodes. identify worker nodes
+  # looking for process kubelet
+  include:
+    jobs:
+    - name: kubelet
+      release: kubo
+

@@ -1,0 +1,8 @@
+---
+name: makeshared
+
+templates:
+  pre-start.sh.erb: bin/pre-start
+
+packages: []
+properties: {}

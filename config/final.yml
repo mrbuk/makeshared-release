@@ -1,0 +1,6 @@
+---
+name: makeshared
+blobstore:
+  provider: gcs
+  options:
+    bucket_name: pivotal-makeshared-release
