@@ -16,11 +16,12 @@ To install the `makeshared` job as a bosh add-on run the following
 ```
 # target the environment you want to install this
 
-# upload the release to the bosh director 
-bosh upload-release
+# upload the release to the bosh director from github.
+# alternatively download this tarball first and upload from local filesystem
+bosh upload-release https://github.com/mrbuk/makeshared-release/releases/download/1/makeshared-release-v1.tgz
 
 # install the makeshared job on worker nodes via runtime-config
-bosh update-config --type runtime --name makeshared addon.yml
+bosh update-config --type runtime --name makeshared manifest/addon.yml
 ```
 
 The worker nodes are identified in the `addon.yml` as VMs with the job `kubelet` running on them.
