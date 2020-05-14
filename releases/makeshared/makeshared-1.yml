@@ -1,0 +1,10 @@
+name: makeshared
+version: "1"
+commit_hash: 7b7c355
+uncommitted_changes: false
+jobs:
+- name: makeshared
+  version: 726b2f5e55b199e6f4289928ab96e714a7d8336c6220c3c91ddde6808db02c60
+  fingerprint: 726b2f5e55b199e6f4289928ab96e714a7d8336c6220c3c91ddde6808db02c60
+  sha1: sha256:f855a068d28e47a7631134eea9dd221697631d283957fc514761126a94a19816
+  packages: []
