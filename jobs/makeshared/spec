@@ -2,7 +2,13 @@
 name: makeshared
 
 templates:
-  pre-start.sh.erb: bin/pre-start
+  pre-start.sh: bin/pre-start
+  run.sh.erb: bin/run
+  makeshared.sh: bin/makeshared
+  ctl.sh: bin/ctl
 
 packages: []
-properties: {}
+properties: 
+  interval_in_sec:
+    description: interval in seconds to wait before rerunning the makeshared script
+    default: 60

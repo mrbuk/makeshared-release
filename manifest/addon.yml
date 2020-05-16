@@ -1,7 +1,7 @@
 releases:
 - name: makeshared
   # a bosh-addon needs to be set to a specific version
-  version: 1
+  version: 2
 
 addons:
 - name: makeshared

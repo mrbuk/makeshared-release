@@ -1,0 +1,16 @@
+#!/bin/sh
+
+set -eu
+
+JOB_NAME=makeshared
+LOG_DIR=/var/vcap/sys/log/${JOB_NAME}
+
+while true; 
+do
+  echo -n "$(date) - "
+  /var/vcap/jobs/${JOB_NAME}/bin/makeshared
+
+  # wait until running again
+  sleep <%= p('interval_in_sec') %>
+done
+

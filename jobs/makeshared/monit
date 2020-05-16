@@ -1,0 +1,5 @@
+check process makeshared
+  with pidfile /var/vcap/sys/run/makeshared/pid
+  start program "/var/vcap/jobs/makeshared/bin/ctl start"
+  stop program "/var/vcap/jobs/makeshared/bin/ctl stop"
+  group vcap
