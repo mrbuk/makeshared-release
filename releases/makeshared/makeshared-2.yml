@@ -1,0 +1,14 @@
+name: makeshared
+version: "2"
+commit_hash: 80c9079
+uncommitted_changes: false
+jobs:
+- name: makeshared
+  version: 5fdf497b6a67451ad876e96a754518493e2bf914e0a32a7fc25f17dc2621a78c
+  fingerprint: 5fdf497b6a67451ad876e96a754518493e2bf914e0a32a7fc25f17dc2621a78c
+  sha1: sha256:70bb35657c9f1665ba9fbbf33312d5951532f2fc728302da3c17654ddd1e4e35
+  packages: []
+license:
+  version: eefa533b44473426f0d39cb7de4a5de1342863955201ca83ddaefe4a0c96d174
+  fingerprint: eefa533b44473426f0d39cb7de4a5de1342863955201ca83ddaefe4a0c96d174
+  sha1: sha256:23fbfb1f5dec2c23300ecb60574e9cc286087a55c307283e206efd98727a0750
