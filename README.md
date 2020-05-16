@@ -18,7 +18,7 @@ To install the `makeshared` job as a bosh add-on run the following
 
 # upload the release to the bosh director from github.
 # alternatively download this tarball first and upload from local filesystem
-bosh upload-release https://github.com/mrbuk/makeshared-release/releases/download/1/makeshared-release-v1.tgz
+bosh upload-release https://github.com/mrbuk/makeshared-release/releases/download/2/makeshared-release-v2.tgz
 
 # install the makeshared job on worker nodes via runtime-config
 bosh update-config --type runtime --name makeshared manifest/addon.yml
